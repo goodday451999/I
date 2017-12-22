@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+margin:0px;
+padding:0px;
+}
+#container ul{
+list-style:none;
+}
+#container ul li{
+background-color:blue;
+width:150px;
+border:5px solid white;
+height:150px;
+line-height:50px;
+text-align:center;
+float:middle;
+color:white;
+font-size:18px;
+position:relative;
+display:inline;
+}
+#container ul li:hover{
+background-color:violet;
+}
+#container ul ul{
+display:none;
+}
+#container ul li:hover >ul{
+display:block;
+}
+#container ul ul ul{
+margin-left:150px;
+top:5px;
+position:absolute;
+}
+</style>
+<title>MY PROFILE</title>
+<meta name="author" content="Nilotpal Pramanik" />
+</head>
+<body background="C:\Users\nilot\OneDrive\Pictures\Camera Roll\It's me\WP_20161009_040.jpg" alt="image" />
+<center><h1><u><i><strong><font color="orange">WELCOME</font></strong></i></u></h1></center>
+<div id="container">
+<center>
+<ul>
+<li>More</li>
+<li>About Author</li>
+<li>Contact Us
+
+ <ul>
+     <li>email
+         <ul>
+             <li>personal</li>
+             <li>office</li>
+          </ul>
+     </li>
+     <li>phone
+          <ul>
+             <li>personal</li>
+             <li>office</li>
+          </ul>
+      </li>
+ </ul>
+</li>
+<li>Home</li>
+</ul>
+</center>
+</div>
+
+<hr />
+<h1>ABOUT ME</h1>
+<p align="left">NILOTPAL PRAMANIK</p>
+
+<center>
+
+
+<marquee direction="up"><font size="100" color="yellow">ENTER THE FOLLOWING INFORMATION</marquee>
+<hr />
+<form>
+First Name:<input type="text" name="first_name" /></br>
+Last Name:<input type="text" name="last_name" /></br>
+User Id:<input type=" text" name="user_id" /></br>
+Password:<input type="password" name="password" /></br>
+<input  type="SUBMIT" name="SUBMIT" value="SUBMIT" />
+<input type="RESET" name="RESET" value="RESET" />
+<p>click on SUBMIT button</p>
+<p>(Song:Emptiness)</p>
+<audio controls>
+  <source src="C:\Users\nilot\Music\EMPTINES(LONELY).mp3" type="audio/mpeg">
+</audio>
+</form>
+
+</center>
+<p>only background song will run in internet explorer</p>
+<bgsound src="C:\Users\nilot\Music\02 Kaun Tujhe (M.S. Dhoni - The Untold Story).mp3" />
+</body>
+</html>
